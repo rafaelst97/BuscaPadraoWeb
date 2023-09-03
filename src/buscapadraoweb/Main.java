@@ -71,6 +71,21 @@ public class Main {
         alfabeto[7] = '7';
         alfabeto[8] = '8';
         alfabeto[9] = '9';
+        alfabeto[10] = 'a';
+        alfabeto[11] = 'b';
+        alfabeto[12] = 'c';
+        alfabeto[13] = 'd';
+        alfabeto[14] = 'e';
+        alfabeto[15] = 'f';
+        alfabeto[16] = 'A';
+        alfabeto[17] = 'B';
+        alfabeto[18] = 'C';
+        alfabeto[19] = 'D';
+        alfabeto[20] = 'E';
+        alfabeto[21] = 'F';
+        alfabeto[22] = ':';
+        alfabeto[23] = '-';
+        alfabeto[24] = '.';
 
 
         //mapa de estados
@@ -78,6 +93,21 @@ public class Main {
         estados[0] = "q0";
         estados[1] = "q1";
         estados[2] = "q2";
+        estados[3] = "q3";
+        estados[4] = "q4";
+        estados[5] = "q5";
+        estados[6] = "q6";
+        estados[7] = "q7";
+        estados[8] = "q8";
+        estados[9] = "q9";
+        estados[10] = "q10";
+        estados[11] = "q11";
+        estados[12] = "q12";
+        estados[13] = "q13";
+        estados[14] = "q14";
+        estados[15] = "q15";
+        estados[16] = "q16";
+        estados[17] = "q17";
 
         String estado_inicial = "q0";
 
