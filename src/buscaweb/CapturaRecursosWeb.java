@@ -25,13 +25,13 @@ import java.util.logging.SocketHandler;
  * @author Santiago
  */
 public class CapturaRecursosWeb {
-    private ArrayList<String> listaRecursos = new ArrayList();
+    private final ArrayList<String> listaRecursos = new ArrayList<>();
     
 
     public ArrayList<String> carregarRecursos(){
-        ArrayList<String> resultado = new ArrayList();
+        ArrayList<String> resultado = new ArrayList<>();
         for (String stringURL: listaRecursos){
-            String resposta = "";
+            String resposta;
 
             try {
                 URL url = new URL(stringURL);

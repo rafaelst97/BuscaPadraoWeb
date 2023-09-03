@@ -116,7 +116,7 @@ public class Main {
         estados_finais[0] = "q17";
 
         //tabela de transição de AFD para reconhecimento números de dois dígitos
-        int[][] matriz = new int[3][10];
+        int[][] matriz = new int[18][25];
         //transições de q0
         matriz[get_string_ref(estados, "q0")][get_char_ref(alfabeto, '0')] = get_string_ref(estados, "q1");
         matriz[get_string_ref(estados, "q0")][get_char_ref(alfabeto, '1')] = get_string_ref(estados, "q1");
