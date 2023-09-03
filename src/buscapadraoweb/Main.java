@@ -52,7 +52,9 @@ public class Main {
     public static void main(String[] args) {
         //instancia e usa objeto que captura código-fonte de páginas Web
         CapturaRecursosWeb crw = new CapturaRecursosWeb();
-        crw.getListaRecursos().add("https://www.univali.br/");
+        crw.getListaRecursos().add("https://pt.wikipedia.org/wiki/Endere%C3%A7o_MAC");
+        crw.getListaRecursos().add("https://www.techtudo.com.br/noticias/2014/11/o-que-e-endereco-mac-saiba-como-encontrar.ghtml");
+        crw.getListaRecursos().add("https://slts.osu.edu/articles/whats-a-mac-address-and-how-do-i-find-it/");
         ArrayList<String> listaCodigos = crw.carregarRecursos();
 
         String codigoHTML = listaCodigos.get(0);
