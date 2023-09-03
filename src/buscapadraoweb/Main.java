@@ -89,7 +89,7 @@ public class Main {
 
 
         //mapa de estados
-        String[] estados = new String[3];
+        String[] estados = new String[18];
         estados[0] = "q0";
         estados[1] = "q1";
         estados[2] = "q2";
