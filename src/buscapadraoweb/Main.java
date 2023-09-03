@@ -60,7 +60,7 @@ public class Main {
         String codigoHTML = listaCodigos.get(0);
 
         //mapa do alfabeto
-        char[] alfabeto = new char[10];
+        char[] alfabeto = new char[25];
         alfabeto[0] = '0';
         alfabeto[1] = '1';
         alfabeto[2] = '2';
